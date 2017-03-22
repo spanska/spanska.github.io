@@ -5,6 +5,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Jean-Baptiste Martin - Mon Portfolio">
+    <meta property="og:description" content="CV/Portfolio Freelance de Jean-Baptiste Martin (Développeur Web Freelance à Nantes)">
+
+    <meta name="description" content="CV/Portfolio Freelance de Jean-Baptiste Martin (Développeur Web Freelance à Nantes)"/>
+    <meta name="keywords" content="CV, Resume, Freelance, Nantes, Web, Java, Python, PostgreSQL, Nantes, jean-baptiste martin, jean-baptiste, react, angular, angularjs, css, css3, javascript, jquery"/>
+
     <title>Jean-Baptiste Martin</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
@@ -47,8 +54,8 @@
     <div id="lead">
         <div id="lead-content">
             <h1>Jean-Baptiste Martin</h1>
-            <h2>Ingénieur Backend/Machine Learning Freelance</h2>
-            <a href="#" class="btn-rounded-white">Télécharger mon CV</a>
+            <h2>Ingénieur Web Backend/Machine Learning Freelance</h2>
+            <a href="./resume/JeanBaptisteMartin.pdf" class="btn-rounded-white">Télécharger mon CV</a>
         </div>
         <!-- End #lead-content -->
 
@@ -116,30 +123,29 @@
         <h2 class="heading">Diplômes</h2>
 
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
+            <h3>Université de Nantes</h3>
+            <span class="education-date">Septembre 2016 - Juin 2018</span>
+            <h4>Formation continue en apprentissage automatique</h4>
         </div>
 
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
+            <h3>INSA Rennes</h3>
+            <span class="education-date">Septembre 2007 - Juin 2009</span>
+            <h4>Diplôme D'Ingénieur (spécialité Informatique)</h4>
         </div>
+
+        <div class="education-block">
+            <h3>Université de Rouen</h3>
+            <span class="education-date">Septembre 2005 - Juin 2007</span>
+            <h4>Maîtrise de Mathématiques appliquées à l'Informatique</h4>
+        </div>
+
+        <div class="education-block">
+            <h3>IUT de Caen</h3>
+            <span class="education-date">Septembre 2003 - Juin 2005</span>
+            <h4>DUT Génie Mathématiques</h4>
+        </div>
+
         <!-- End .education-block -->
     </div>
     <!-- End #education -->
@@ -148,21 +154,6 @@
         <h2 class="heading">Projets</h2>
         <div class="container">
             <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
 
                 <div class="project shadow-large">
                     <div class="project-image">
@@ -170,15 +161,16 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Lengow V3</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            Architecture de toute la partie Backend (applicatif et base de données) et participation active à son développement
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://my.lengow.io">Voir le projet</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
+
             </div>
         </div>
     </div>
@@ -204,8 +196,8 @@
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/jean-baptiste@outlook.com">
                 <input type="hidden" name="_subject" value="requête freelance depuis Github" />
-                <input type="email" name="_replyto" placeholder="Votre email" required>
-                <textarea name="message" placeholder="Votre message" required></textarea>
+                <input type="email" name="_replyto" placeholder="email" required>
+                <textarea name="message" placeholder="message" required></textarea>
                 <button type="submit">Envoyer</button>
             </form>
         </div>
@@ -229,19 +221,13 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/spanska"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/jean-baptiste-martin-631913a"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/mr_martingale"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
